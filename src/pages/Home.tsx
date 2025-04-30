@@ -10,6 +10,7 @@ import GlassCard from '../components/GlassCard';
 import PhotoGallery from '../components/PhotoGallery';
 import AIChatbot from '../components/AIChatbot';
 import image1 from '../assets/images/10.jpg';
+import VenueCard from '../components/VenueCard';
 
 const Home: React.FC = () => {
   const { t, language } = useLanguage();
@@ -259,7 +260,10 @@ const Home: React.FC = () => {
             />
           </div>
           <PhotoGallery photos={photos} />
+          <br />
+          <VenueCard/>
         </div>
+
       </div>
 
       {/* AI Chatbot */}
